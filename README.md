@@ -7,6 +7,15 @@ It includes:
 * Prometheus
 * Node Exporter
 
+The example fully configures Grafana with access to Prometheus by default. The default username and password for Grafana here is:
+
+```
+Username: admin
+Password: foobar
+```
+
+So all you need to do is start creating dashboards, or configure new application targets using the prometheus config file.
+
 ## Requirements
 
 At the time of writing all you need is:
